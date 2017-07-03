@@ -11,6 +11,9 @@ namespace 策略模式
     /// </summary>
     public interface IQuackBehavior
     {
+        /// <summary>
+        /// 执行叫声动作
+        /// </summary>
         void quack();
     }
 }

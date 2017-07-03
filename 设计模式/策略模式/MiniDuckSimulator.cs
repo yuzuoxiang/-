@@ -8,6 +8,10 @@ namespace 策略模式
 {
     class MiniDuckSimulator
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             Duck mallard = new MallardDuck();
