@@ -17,6 +17,7 @@ namespace 策略模式
             Duck mallard = new MallardDuck();
             mallard.performFly();
             mallard.performQuack();
+            //修改叫声行为
             mallard.setQuackBehavior(new Squeak());
             mallard.performQuack();
             Console.Read();
