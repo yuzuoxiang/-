@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "设计模式", "设计模式\设计模式.csproj", "{949260C2-1519-47CD-B571-DCC9D6668CCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "策略模式", "策略模式\策略模式.csproj", "{530FBA7A-3078-4CFB-ADB9-CD1C1D486B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "观察者模式", "观察者模式\观察者模式.csproj", "{73ED29BF-EA5E-49F5-AE38-8C9043397B82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "装饰者模式", "装饰者模式\装饰者模式.csproj", "{DDE5E542-4D24-4413-96E2-D4B73A7BFEBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "单件模式", "单件模式\单件模式.csproj", "{D3DE87C6-B843-4A28-B0DD-B23E759D098C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{530FBA7A-3078-4CFB-ADB9-CD1C1D486B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{530FBA7A-3078-4CFB-ADB9-CD1C1D486B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{530FBA7A-3078-4CFB-ADB9-CD1C1D486B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73ED29BF-EA5E-49F5-AE38-8C9043397B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ED29BF-EA5E-49F5-AE38-8C9043397B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ED29BF-EA5E-49F5-AE38-8C9043397B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ED29BF-EA5E-49F5-AE38-8C9043397B82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE5E542-4D24-4413-96E2-D4B73A7BFEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE5E542-4D24-4413-96E2-D4B73A7BFEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE5E542-4D24-4413-96E2-D4B73A7BFEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE5E542-4D24-4413-96E2-D4B73A7BFEBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DE87C6-B843-4A28-B0DD-B23E759D098C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DE87C6-B843-4A28-B0DD-B23E759D098C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DE87C6-B843-4A28-B0DD-B23E759D098C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DE87C6-B843-4A28-B0DD-B23E759D098C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
