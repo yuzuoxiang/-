@@ -16,15 +16,6 @@ namespace 单件模式
     {
         static void Main(string[] args)
         {
-            #region 示意性代码
-            //Singleton s1 = Singleton.Instance();
-            //Singleton s2 = Singleton.Instance();
-            //if (s1 == s2)
-            //{
-            //    Console.WriteLine("两个类相同");
-            //}
-            #endregion
-
             #region 实际应用
             LoadBalancer b1 = LoadBalancer.GetLoadBalancer();
             LoadBalancer b2 = LoadBalancer.GetLoadBalancer();
@@ -41,10 +32,7 @@ namespace 单件模式
             {
                 Console.WriteLine(b1.Server);
             }
-
             #endregion
-
-            Console.ReadLine();
         }
     }
 
@@ -109,24 +97,5 @@ namespace 单件模式
 
     }
     #endregion
-
-    #region 示意性代码
-    class Singleton
-    {
-        private static Singleton instance;
-
-        //禁止被外部实例化
-        protected Singleton() { }
-
-        public static Singleton Instance()
-        {
-            if (instance == null)
-            {
-                instance = new Singleton();
-            }
-
-            return instance;
-        }
-    }
-    #endregion
+   
 }
